@@ -52,6 +52,7 @@ You should see the logging printed in the first terminal:
 
 ## Database
 
+```sql
 --->> MySql Versão 8.0.23 ou superior
 
 create database vakinha_burger;
@@ -129,3 +130,5 @@ VALUES (null, 'X-Tudo',
         'Pão, Hambúrguer (Tradicional 56g), Presunto, Muçarela, Salsicha, Bacon, Calabresa, Ovo, Catupiry, Alface, Tomate, Milho e Batata Palha.',
         15.99, '/xtudo_suco.jpeg');
 
+
+```
