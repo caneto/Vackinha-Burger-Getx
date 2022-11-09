@@ -6,7 +6,6 @@
     "configurations": [
         {
             "name": "vakinha_burger_api",
-            "cwd": "vakinha_burger_api",
             "request": "launch",
             "type": "dart",
             "program": "${workspaceFolder}/bin/server.dart"
