@@ -7,7 +7,7 @@ import 'package:vakinha_burger_api/app/modules/auth/auth_controller.dart';
 
 // Configure routes.
 final _router = Router()
-  ..get('/auth/', AuthController().router);
+  ..mount('/auth/', AuthController().router);
   
 
 void main(List<String> args) async {

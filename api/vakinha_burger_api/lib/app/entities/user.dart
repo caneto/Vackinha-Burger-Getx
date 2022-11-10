@@ -20,16 +20,16 @@ class User {
       'id': id,
       'nome': name,
       'email': email,
-      'senha': password,
+      'password': password,
     };
   }
 
   factory User.fromMap(Map<String, dynamic> map) {
     return User(
       id: map['id'],
-      name: (map["nome"] ?? '') as String,
+      name: (map["name"] ?? '') as String,
       email: (map["email"] ?? '') as String,
-      password: (map["senha"] ?? '') as String,
+      password: (map["password"] ?? '') as String,
     );
   }
 

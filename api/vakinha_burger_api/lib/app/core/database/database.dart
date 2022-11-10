@@ -1,6 +1,3 @@
-
-import 'dart:html';
-
 import 'package:dotenv/dotenv.dart';
 import 'package:mysql1/mysql1.dart';
 
